@@ -1,0 +1,48 @@
+* {
+    background-color: #f0f0f0;
+    border: 1px solid hsl(0, 0%, 80%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding: 10px;
+    margin: 0 200px;
+}
+
+a {
+    background-color: #0d2696;
+    margin: 20px 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn_Block, #btn_Inline, #btn_Inline, #btn_Flex, #btn_Grid, #btn_None {
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+
+}
+
+.nav, .footer {
+    overflow: hidden;
+}
+
+.nav, .about, .contact, .footer {
+    background-color: #0d2696;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.about {
+    width: 65%;
+    float: inline-start;
+}
+
+.contact {
+    width: 10%;
+    float: inline-start;
+}
